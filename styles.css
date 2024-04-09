@@ -1,0 +1,239 @@
+body {
+    background-image: url("app_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 2vh;
+    font-weight: bold;
+    
+}
+
+
+.section_bx{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10%;
+    padding: 20px;
+    margin-top: 50%;
+    gap:100px
+   
+
+}
+
+.display{
+    margin-top: 30px;
+
+}
+.display input {
+    margin: 0 10px;
+    height: 3vh;
+    width: 25%;
+    font-size: 2vh;
+}
+
+.buttons {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.positions {
+    margin-top: 80px;
+    
+    justify-content:center;
+   gap: 40px;
+    
+
+}
+
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ /* .display, .positions .position, .speed , .button {
+   margin: 40px;
+} */
+
+.speed input {
+    margin: 0 10px;
+    height: 3vh;
+    width: 25%;
+    font-size: 2vh;
+}
+
+
+.teach {
+    background-color: yellow;
+    height: 3vh;
+    width: 85%;
+    font-size: 2vh;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.teach input {
+    margin: 0 10px;
+    height: 3vh;
+    width: 30%;
+    font-size: 2vh;
+}
+
+.setup_icon {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    margin: 10px;
+}
+.speed {
+    margin-top: 20px;
+}
+.jog_icon {
+    background-color: transparent;
+   
+}
+.jog_btns{
+    background-color: transparent;
+}
+/* table {
+    table-layout: auto;
+    width: auto;
+} */
+
+table th,
+table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+table input {
+    width: 60%;
+    height: 3vh;
+    font-size: 2vh;
+}
+
+.strt_session{
+    margin-top: 99%;
+    margin-left: 20%;
+    background-color: transparent;
+    justify-content: center;
+}
+.strt_session button{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2vh;
+    padding: 10px;
+}
+.strt_session_btn:active img {
+    content: url('Stop_Pause.png'); /* replace with the path to your second image */
+}
+
+.begin_session{
+    margin-top: 25%;
+    margin-left: 15%;
+    background-color: transparent;
+    justify-content: center;
+}
+.begin_session_btn {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2vh;
+    padding: 10px;
+}
+.btn1_container {
+    width: 450px;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    position: relative;
+    border: 3px solid #111;
+    margin-right: 20px;
+    box-shadow: -1px 3px 22px 0px rgba(0, 0, 0, 0.75);
+    margin-left: 30%;
+  }
+  .btn1_container {
+    border-radius: 30px;
+  }
+  .one {
+    position: absolute;
+    height: 70px;
+    width: 270px;
+    background-color: grey;
+    display: block;
+    border-radius: 30px;
+    border: 2px solid rgb(202, 165, 43);
+    background-color: rgb(202, 165, 43);
+    transition: all 0.3s ease;
+  }
+  
+  .one {
+    left: 00px;
+  }
+  .inactive1 {
+    transform: translateX(calc(185px - 5px));
+    border: 2px solid rgba(43, 170, 202);
+    background-color: rgba(43, 170, 202);
+  }
+  .active {
+    right: 90px;
+  }
+  .extnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+ .user_creds{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    margin-top: 900px;
+    gap: 20px;
+ }
+ .recovery_table{
+    margin-top: 20px;
+    margin-left: 20%;
+    gap: 20px;
+ }
+ .rom_str{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ .tr_pre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ .rom_logo_nav {
+    background-color: transparent;
+ }
+ .strength_logo_nav {
+    background-color: transparent;
+ }
+ .training_logo_nav{
+    background-color: transparent;
+ }
+ .prescribe_logo_nav{
+    background-color: transparent;
+ }
+ .set_logo_nav{
+    background-color: transparent;
+ }
+ .record_download{
+    margin-top: 80%;
+    margin-left: 40%;
+ }

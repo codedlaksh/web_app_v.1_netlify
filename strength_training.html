@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1344, height=2992, initial-scale=1.0">
+<title>Strength Training</title>
+<link rel="stylesheet" href="styles.css">
+<!-- <link rel="script" href="script.js"> -->
+
+</head>
+<body>
+
+
+<img src="Strength Training_logo.png" alt="Setup Icon" class="setup_icon">
+
+    <img src="Strength Training_txt.png" alt="Range of Motion Icon" class="icon" style="position: absolute; top: 150px; margin-left: 75%; width: 20%;">
+
+
+    <!-- <header>
+        <h1>Setup</h1>
+    </header> -->
+    <section class="section_bx" id="controls">
+       
+        <table class="positions">
+            <tr>
+                <td style="max-width: 200px; ">
+            <label for="upPos">Isometric Pos:</label>
+            </td>
+            <td style="max-width: 200px; ">
+            <input type="text" id="upPos" value="53°" style="text-align: center; width: 30%;">
+            </td>
+           
+            </tr>
+           
+        </table>
+        <div class="container">
+            <div class="btn1_container">
+              <span class="one"></span>
+            </div>
+
+            <div class="extnd">
+                <label for="extnd">Contract</label>
+                <label for="extnd">Extend</label>
+
+            </div>
+
+            <div class="begin_session">
+                <button class="begin_session_btn" id="begin_session">
+                    <img src="begin_session_logo.png" alt="Begin Session" class="begin-icon ">
+                </button>
+                </div>
+        
+    </section>
+
+
+
+</body>
+<script >
+    
+    document.querySelector('.begin_session_btn').addEventListener('click', function() {
+    window.location.href = 'strength_training_begin_ready.html'; // replace with the path to the page you want to navigate to
+});
+    const btn1_ctn = document.getElementsByClassName("btn1_container")[0];
+const one = document.getElementsByClassName("one")[0];
+btn1_ctn.addEventListener("click", () => {
+  one.classList.toggle("inactive1");
+});
+</script>
+
+</html>

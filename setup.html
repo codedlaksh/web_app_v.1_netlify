@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Setup</title>
+<link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+
+
+<img src="Setup.png" alt="Setup Icon" class="setup_icon">
+
+    <!-- <header>
+        <h1>Setup</h1>
+    </header> -->
+    <section class="section_bx" id="controls">
+        <div class="display">
+            <label for="currentPos">Current Pos:</label>
+            <input type="text" id="currentPos" value="30°" readonly>
+        </div>
+        <div class="buttons">
+            <button id="jogDown"  class="jog_btns">
+                <img src="Jog_down.png" alt="Jog Down" class="jog-icon">
+            </button>
+            <button id="jogUp" class="jog_btns">
+                <img src="Jog_up.png" alt="Jog Up" class="jog-icon">
+            </button>
+        </div>
+        <table class="positions">
+            <tr>
+                <td style="max-width: 200px; ">
+            <label for="upPos">Up Pos:</label>
+            </td>
+            <td style="max-width: 200px; ">
+            <input type="text" id="upPos" value="15°" style="text-align: center;">
+            </td>
+            <td style="max-width: 200px;">
+            <button class="teach">Teach</button>
+            </td>
+            </tr>
+            <tr>
+                <td style="max-width: 200px; ">
+            <label for="downPos">Down Pos:</label>
+            </td>
+            <td style="max-width: 200px;">
+            <input type="text" id="downPos" value="92°" style="text-align: center;">
+            </td>
+            <td style="max-width: 200px;">
+            <button class="teach">Teach</button>
+            </td>
+            </tr>
+        </table>
+        <div class="speed">
+            <label for="jogSpeed">Jog Speed:</label>
+            <input type="text" id="jogSpeed" value="5°/sec">
+        </div>
+    </section>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

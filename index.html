@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Main</title>
+<link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+    <div class="rom_str" style="margin-top: 30%;">
+        <button class="rom_logo_nav">
+            <img  src="ROM Training.png" alt="Setup Icon" >
+        </button >
+        <button class=" strength_logo_nav" >
+            <img  src="Strength Training.png" alt="Setup Icon" >
+        </button>
+
+        
+    </div>
+<div class="physiobot_icon_main">
+   
+        <img  src="physiobot_logo.png" alt="Setup Icon" style="width: 30%; margin-left: 40%;" >
+    
+    
+</div>
+
+<div class="tr_pre">
+    <button class="training_logo_nav">
+        <img  src="Training Records.png" alt="Setup Icon" >
+    </button>
+    <button class="prescribe_logo_nav">
+        <img  src="Prescribe Training.png" alt="Setup Icon" >
+   </button>
+</div>
+<button class="set_logo_nav" style="margin-left: 40%;">
+    <img  src="Setup.png" alt="Setup Icon" >
+
+</button>
+
+
+
+    <!-- <header>
+        <h1>Setup</h1>
+    </header> -->
+    
+
+
+
+</body>
+<script >
+    document.querySelector('.rom_logo_nav').addEventListener('click', function() {
+    window.location.href = 'rom_setup.html'; // replace with the path to the page you want to navigate to
+});
+document.querySelector('.strength_logo_nav').addEventListener('click', function() {
+    window.location.href = 'strength_training.html'; // replace with the path to the page you want to navigate to
+});
+document.querySelector('.training_logo_nav').addEventListener('click', function() {
+    window.location.href = 'training_records.html'; // replace with the path to the page you want to navigate to
+});
+document.querySelector('.prescribe_logo_nav').addEventListener('click', function() {
+    window.location.href = 'prescription_training.html'; // replace with the path to the page you want to navigate to
+});
+document.querySelector('.set_logo_nav').addEventListener('click', function() {
+    window.location.href = 'setup.html'; // replace with the path to the page you want to navigate to
+});
+</script>
+
+</html>
